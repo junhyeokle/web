@@ -28,7 +28,7 @@
   }
 </style>
 </head>
-<script type="module" src="main.js"></script>
+<script type="module" src="assets/js/main.js"></script>
 <body>
   <div class="scale-wrapper">
     <div class="scaled-content" id="scaled-content">
@@ -98,7 +98,11 @@
   </div>
   <div style="width: 1440px; height: 810px; left: 0px; top: 0px; position: absolute; background: white">
     <!-- WebGL을 표시할 div 추가 (이미지 대신 WebGL로 대체) -->
-    <div id="hero3d" style="width:1176px; height:582px; left:132px; top:258px; position:absolute;"></div>
+    <!-- WebGL 영역 추가 -->
+<div id="hero3d"
+     style="width:1176px; height:582px; left:132px; top:258px; position:absolute; background-color:#f0f0f0;">
+</div>
+
     <div style="left: 132px; top: 154px; position: absolute; color: #171A1F; font-size: 48px; font-family: Archivo; font-weight: 600; line-height: 68px; word-wrap: break-word">Report</div>
     <div style="width: 1440px; height: 60px; left: 0px; top: 0px; position: absolute; background: white">
   <div style="width: 315px; height: 24px; left: 788px; top: 18px; position: absolute; background: rgba(0, 0, 0, 0)">
@@ -277,3 +281,4 @@
   </script>
 </body>
 </html>
+

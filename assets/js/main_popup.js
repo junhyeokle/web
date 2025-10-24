@@ -1,6 +1,7 @@
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
+// === Import Three.js modules ===
+import * as THREE from "https://cdn.skypack.dev/three@0.129.0/build/three.module.js";
+import { PointerLockControls } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/controls/PointerLockControls.js";
+import { GLTFLoader } from "https://cdn.skypack.dev/three@0.129.0/examples/jsm/loaders/GLTFLoader.js";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -22,7 +23,7 @@ scene.add(directionalLight);
 // === GLB 로드 ===
 const loader = new GLTFLoader();
 loader.load(
-  './room.glb',
+  "assets/models/eye/room.glb",
   gltf => {
     gltf.scene.scale.set(100, 100, 100);
     scene.add(gltf.scene);
@@ -88,4 +89,5 @@ window.addEventListener('resize', () => {
   camera.updateProjectionMatrix();
   renderer.setSize(window.innerWidth, window.innerHeight);
 });
+
 

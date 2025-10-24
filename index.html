@@ -1,75 +1,259 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Moo-in Project Details</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <style>
-    body { margin: 0; background: white; }
-    .scale-wrapper {
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      background: white;
-      overflow: hidden;
-      height: 100vh;
-      overflow-y: visible;
-    }
-    .scaled-content {
-      transform-origin: top center;
-      width: 1440px; /* 디자인 기준 해상도 */
-      transition: transform 0.3s ease;
-    }
-  </style>
-</head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Moo-in </title>
 
+<style>
+  body {
+    margin: 0;
+    background: white;
+  }
+
+  .scale-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: white;
+    overflow: hidden;
+    height: 100vh;
+    overflow-y: visible;
+  }
+
+  .scaled-content {
+    transform-origin: top center;
+    width: 1440px; /* 디자인 기준 해상도 */
+    transition: transform 0.3s ease;
+  }
+</style>
+</head>
+<script type="module" src="main.js"></script>
 <body>
   <div class="scale-wrapper">
     <div class="scaled-content" id="scaled-content">
-      <div style="width:1440px; height:4021px; position:relative; background:white; box-shadow:0 3px 6px rgba(18,15,40,0.12); overflow:hidden">
-
-        <!-- 상단 섹션 -->
-        <div style="width:1440px; height:810px; left:0; top:0; position:absolute; background:white;">
-          <!-- ✅ WebGL 삽입 -->
-          <div id="hero3d" style="width:1176px; height:582px; left:132px; top:258px; position:absolute; background:#f4f4f4; border-radius:8px; overflow:hidden;">
-            <div class="placeholder" style="position:absolute; inset:0; display:flex; align-items:center; justify-content:center; color:#999;">3D loads here</div>
-          </div>
-
-          <div style="left:132px; top:154px; position:absolute; color:#171A1F; font-size:48px; font-family:Archivo; font-weight:600; line-height:68px;">Report</div>
-          <div style="width:1440px; height:60px; left:0; top:0; position:absolute; background:white;">
-            <div style="width:315px; height:24px; left:788px; top:18px; position:absolute;">
-              <div style="left:0; position:absolute; color:#565E6C; font-size:14px;">Team</div>
-              <div style="left:61px; position:absolute; color:#6E7787; font-size:14px;">Service</div>
-              <div style="left:136px; position:absolute; color:black; font-weight:700; font-size:14px;">Project details</div>
-              <div style="left:258px; position:absolute; color:#565E6C; font-size:14px;">Main</div>
-            </div>
-            <div style="width:140px; height:60px; left:1168px; top:0; position:absolute; background:#151ED2; color:white; display:flex; align-items:center; justify-content:center; font-size:14px; font-weight:400;">Log in</div>
-            <img style="width:139px; height:40px; left:132px; top:10px; position:absolute;" src="https://placehold.co/139x40" />
-          </div>
+      <div style="width: 1440px; height: 4021px; position: relative; background: white; box-shadow: 0px 3px 6px rgba(18, 15, 40, 0.12); overflow: hidden">
+  <div style="width: 1440px; height: 654px; left: 0px; top: 810px; position: absolute; background: white">
+    <img style="width: 627px; height: 410px; left: 636px; top: 62px; position: absolute" src="https://placehold.co/627x410" />
+    <div style="width: 406px; height: 249px; left: 132px; top: 62px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px; outline: 1px rgba(222, 225, 230, 0) solid; outline-offset: -0.50px">
+      <div style="width: 406px; height: 68px; left: 0px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0)">
+        <div style="width: 203px; height: 68px; left: 0px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 23px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Project</div>
         </div>
-
-        <!-- 나머지 콘텐츠는 원래 project_details.html 구조 유지 -->
-        <!-- 중간 정보 카드, 이미지, 푸터 등 그대로 -->
-        <!-- 아래는 생략해도 동작에는 문제 없음 -->
+        <div style="width: 203px; height: 68px; left: 203px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 12px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Tranquil Retreat Bailey - House</div>
+        </div>
       </div>
+      <div style="width: 406px; height: 61px; left: 0px; top: 68px; position: absolute; background: rgba(0, 0, 0, 0)">
+        <div style="width: 203px; height: 61px; left: 0px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 19.50px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Location</div>
+        </div>
+        <div style="width: 203px; height: 61px; left: 203px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 19.50px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">San Francisco, CA 94132</div>
+        </div>
+      </div>
+      <div style="width: 406px; height: 60px; left: 0px; top: 129px; position: absolute; background: rgba(0, 0, 0, 0)">
+        <div style="width: 203px; height: 60px; left: 0px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 19px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Area</div>
+        </div>
+        <div style="width: 203px; height: 60px; left: 203px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 19px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">120 m2</div>
+        </div>
+      </div>
+      <div style="width: 406px; height: 60px; left: 0px; top: 189px; position: absolute; background: rgba(0, 0, 0, 0)">
+        <div style="width: 203px; height: 60px; left: 203px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 19px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">2023</div>
+        </div>
+        <div style="width: 203px; height: 60px; left: 0px; top: 0px; position: absolute; background: white; overflow: hidden; border-top: 1px #DEE1E6 solid; border-bottom: 1px #DEE1E6 solid">
+          <div style="width: 171px; left: 16px; top: 19px; position: absolute; color: #171A1F; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Completed</div>
+        </div>
+      </div>
+    </div>
+    <div style="width: 406px; left: 132px; top: 364px; position: absolute; color: #424955; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">The owners wanted a new family home that is flexible to cater to the future changes in family requirements- a joyful abode at all stages in life. The owners wanted a new family home that is flexible to cater to the future changes in family requirements- a joyful abode at all stages in life. </div>
+    <div style="width: 200px; height: 44px; left: 132px; top: 548px; position: absolute; background: #151ED2; overflow: hidden; border-radius: 6px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+      <div style="left: 70px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">In detail</div>
+    </div>
+  </div>
+  <div style="width: 1176px; height: 299px; left: 132px; top: 3315px; position: absolute; background: #1D2128">
+    <div style="width: 294px; height: 299px; left: 0px; top: 0px; position: absolute; background: black">
+      <div style="left: 36px; top: 48px; position: absolute; color: white; font-size: 28px; font-family: Archivo; font-weight: 600; line-height: 42px; word-wrap: break-word">Affiliates</div>
+      <div style="width: 203px; height: 23px; left: 36px; top: 94px; position: absolute; color: white; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Moo-in의 제휴업체를 소개합니다.</div>
+      <div style="width: 44px; height: 44px; left: 100px; top: 180px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 22px; outline: 1px white solid; outline-offset: -1px">
+        <div style="width: 26px; height: 26px; left: 9px; top: 9px; position: absolute; overflow: hidden">
+          <div style="width: 11.46px; height: 19.44px; left: 7.61px; top: 3.28px; position: absolute; background: white"></div>
+        </div>
+      </div>
+      <div style="width: 44px; height: 44px; left: 36px; top: 180px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 22px; outline: 1px white solid; outline-offset: -1px">
+        <div style="width: 26px; height: 26px; left: 9px; top: 9px; position: absolute; overflow: hidden">
+          <div style="width: 11.46px; height: 19.44px; left: 6.53px; top: 3.28px; position: absolute; background: white"></div>
+        </div>
+      </div>
+    </div>
+    <div style="left: 330px; top: 214px; position: absolute; color: white; font-size: 20px; font-family: Archivo; font-weight: 500; line-height: 30px; word-wrap: break-word">William King<br/>-</div>
+    <div style="left: 624px; top: 214px; position: absolute; color: white; font-size: 20px; font-family: Archivo; font-weight: 500; line-height: 30px; word-wrap: break-word">Angel Gomez</div>
+    <div style="left: 918px; top: 214px; position: absolute; color: white; font-size: 20px; font-family: Archivo; font-weight: 500; line-height: 30px; word-wrap: break-word">Anthony Adams</div>
+    <div style="width: 224px; height: 171px; left: 330px; top: 31px; position: absolute; background: white; border: 1px #DEE1E6 solid"></div>
+    <div style="width: 224px; height: 171px; left: 624px; top: 31px; position: absolute; background: white; border: 1px #DEE1E6 solid"></div>
+    <div style="width: 224px; height: 171px; left: 918px; top: 31px; position: absolute; background: white; border: 1px #DEE1E6 solid"></div>
+  </div>
+  <div style="width: 1440px; height: 810px; left: 0px; top: 0px; position: absolute; background: white">
+    <!-- WebGL을 표시할 div 추가 (이미지 대신 WebGL로 대체) -->
+    <div id="hero3d" style="width:1176px; height:582px; left:132px; top:258px; position:absolute;"></div>
+    <div style="left: 132px; top: 154px; position: absolute; color: #171A1F; font-size: 48px; font-family: Archivo; font-weight: 600; line-height: 68px; word-wrap: break-word">Report</div>
+    <div style="width: 1440px; height: 60px; left: 0px; top: 0px; position: absolute; background: white">
+      <div style="width: 315px; height: 24px; left: 788px; top: 18px; position: absolute; background: rgba(0, 0, 0, 0)">
+        <div style="width: 57px; height: 24px; left: 258px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px">
+          <div style="left: 12px; top: 1px; position: absolute; color: #565E6C; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Main</div>
+        </div>
+        <div style="width: 75px; height: 24px; left: 61px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px">
+          <div style="left: 12px; top: 1px; position: absolute; color: #6E7787; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Service</div>
+        </div>
+        <div style="width: 122px; height: 24px; left: 136px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px">
+          <div style="left: 12px; top: 1px; position: absolute; color: black; font-size: 14px; font-family: Inter; font-weight: 700; line-height: 22px; word-wrap: break-word">Project details</div>
+        </div>
+        <div style="width: 61px; height: 24px; left: 0px; top: 0px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px">
+          <div style="left: 12px; top: 1px; position: absolute; color: #565E6C; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Team</div>
+        </div>
+      </div>
+      <div style="width: 140px; height: 60px; left: 1168px; top: 0px; position: absolute; background: #151ED2; overflow: hidden; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+        <div style="left: 38.50px; top: 19px; position: absolute; text-align: center; color: white; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Log in</div>
+        <div style="width: 16px; height: 16px; left: 85.50px; top: 22px; position: absolute; overflow: hidden">
+          <div style="width: 3.99px; height: 7.98px; left: 9.71px; top: 4.01px; position: absolute; outline: 1.37px white solid; outline-offset: -0.68px"></div>
+        </div>
+      </div>
+      <img style="width: 139px; height: 40px; left: 132px; top: 10px; position: absolute" src="https://placehold.co/139x40" />
+    </div>
+    <div style="width: 100px; height: 100px; left: 1330px; top: 669px; position: absolute"></div>
+    <div style="width: 44px; height: 44px; left: 1241px; top: 778px; position: absolute; background: #151ED2; overflow: hidden; border-radius: 6px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+      <div style="left: 5px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Turn</div>
+    </div>
+  </div>
+  <img style="width: 368px; height: 546px; left: 132px; top: 2249px; position: absolute" src="https://placehold.co/368x546" />
+  <img style="width: 1176px; height: 706px; left: 132px; top: 1507px; position: absolute" src="https://placehold.co/1176x706" />
+  <img style="width: 368px; height: 546px; left: 536px; top: 2249px; position: absolute" src="https://placehold.co/368x546" />
+  <img style="width: 368px; height: 546px; left: 940px; top: 2249px; position: absolute" src="https://placehold.co/368x546" />
+  <img style="width: 570px; height: 342px; left: 132px; top: 2831px; position: absolute" src="https://placehold.co/570x342" />
+  <img style="width: 570px; height: 342px; left: 738px; top: 2831px; position: absolute" src="https://placehold.co/570x342" />
+  <div style="width: 200px; height: 44px; left: 620px; top: 3209px; position: absolute; background: #151ED2; overflow: hidden; border-radius: 6px; outline: 1px rgba(0, 0, 0, 0) solid; outline-offset: -1px">
+    <div style="left: 70px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">In detail</div>
+  </div>
+  <div style="width: 1440px; height: 345px; left: 0px; top: 3676px; position: absolute; background: #151ED2; overflow: hidden">
+    <div style="width: 385px; height: 385px; left: 1185px; top: -5px; position: absolute; overflow: hidden">
+      <div style="width: 361.23px; height: 313.30px; left: 11.88px; top: 35.85px; position: absolute; background: rgba(99, 106, 232, 0.15)"></div>
+    </div>
+    <div style="left: 932px; top: 287px; position: absolute; color: #DEE1E6; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">© 2023 Brand, Inc.</div>
+    <div style="left: 1081px; top: 287px; position: absolute; color: #DEE1E6; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Privacy</div>
+    <div style="left: 1153px; top: 287px; position: absolute; color: #DEE1E6; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Terms</div>
+    <div style="left: 1066px; top: 289px; position: absolute; color: #DEE1E6; font-size: 11px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">•</div>
+    <div style="left: 1138px; top: 289px; position: absolute; color: #DEE1E6; font-size: 11px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">•</div>
+    <div style="width: 167px; height: 48px; left: 156px; top: 62px; position: absolute; overflow: hidden">
+      <div style="width: 44.73px; height: 38.80px; left: 1.59px; top: 3.53px; position: absolute; background: #636AE8"></div>
+      <div style="width: 19.50px; height: 23.74px; left: 53.51px; top: 11.17px; position: absolute; background: white"></div>
+      <div style="width: 11.98px; height: 21.78px; left: 74.69px; top: 12.82px; position: absolute; background: white"></div>
+      <div style="width: 17.17px; height: 17.75px; left: 89.45px; top: 17.23px; position: absolute; background: white"></div>
+      <div style="width: 18.55px; height: 24.54px; left: 110.07px; top: 10.42px; position: absolute; background: white"></div>
+      <div style="width: 7px; height: 26.55px; left: 132.77px; top: 8.03px; position: absolute; background: white"></div>
+      <div style="width: 19.19px; height: 18.02px; left: 142.87px; top: 16.91px; position: absolute; background: white"></div>
+    </div>
+    <div style="left: 184px; top: 241px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">(+82) 010 7101 6199</div>
+    <div style="width: 16px; height: 16px; left: 156px; top: 246px; position: absolute; overflow: hidden">
+      <div style="width: 11.40px; height: 11.40px; left: 2.30px; top: 2.30px; position: absolute; outline: 1.37px white solid; outline-offset: -0.68px"></div>
+    </div>
+    <div style="left: 184px; top: 283px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">komin619901@naver.com</div>
+    <div style="width: 16px; height: 16px; left: 156px; top: 288px; position: absolute; overflow: hidden">
+      <div style="width: 13.40px; height: 10.72px; left: 1.30px; top: 2.64px; position: absolute; background: white"></div>
+    </div>
+    <div style="left: 184px; top: 196px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">KyungHee University</div>
+    <div style="width: 16px; height: 16px; left: 156px; top: 201px; position: absolute; overflow: hidden">
+      <div style="width: 16.08px; height: 16.08px; left: -0.04px; top: -0.04px; position: absolute"></div>
+      <div style="width: 9.38px; height: 13.40px; left: 3.31px; top: 1.30px; position: absolute; background: white"></div>
+    </div>
+    <div style="left: 580px; top: 62px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Team</div>
+    <div style="width: 24px; height: 24px; left: 1296px; top: 285px; position: absolute; overflow: hidden">
+      <div style="width: 19.26px; height: 15.60px; left: 2.34px; top: 4.20px; position: absolute; background: white"></div>
+    </div>
+    <div style="width: 24px; height: 24px; left: 1328px; top: 285px; position: absolute; overflow: hidden">
+      <div style="width: 19.20px; height: 19.08px; left: 2.40px; top: 2.40px; position: absolute; background: white"></div>
+    </div>
+    <div style="width: 24px; height: 24px; left: 1360px; top: 285px; position: absolute; overflow: hidden">
+      <div style="width: 18px; height: 18px; left: 3px; top: 3px; position: absolute; background: white"></div>
+    </div>
+    <div style="width: 24px; height: 24px; left: 1392px; top: 285px; position: absolute; overflow: hidden">
+      <div style="width: 19.20px; height: 13.56px; left: 2.40px; top: 5.22px; position: absolute; background: white"></div>
+    </div>
+    <div style="width: 344px; left: 953px; top: 62px; position: absolute; color: #DEE1E6; font-size: 28px; font-family: Archivo; font-weight: 300; line-height: 42px; word-wrap: break-word">비어 있는 공간을<br/>가치있게 채우고 싶다면</div>
+    <div style="width: 200px; height: 44px; left: 953px; top: 162px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px; outline: 1px white solid; outline-offset: -1px">
+      <div style="left: 63.50px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Log in</div>
+      <div style="width: 20px; height: 20px; left: 116.50px; top: 12px; position: absolute; overflow: hidden">
+        <div style="width: 4.97px; height: 9.94px; left: 12.16px; top: 5.03px; position: absolute; outline: 1.70px white solid; outline-offset: -0.85px"></div>
+      </div>
+    </div>
+    <div style="left: 580px; top: 104px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Services</div>
+    <div style="left: 580px; top: 146px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Project details</div>
+    <div style="left: 580px; top: 188px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Log in</div>
+    <div style="width: 1440px; height: 345px; left: 0px; top: 0px; position: absolute; background: #151ED2; overflow: hidden">
+      <div style="left: 932px; top: 287px; position: absolute; color: #DEE1E6; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">© 2025 MOO-IN, Inc.</div>
+      <div style="left: 1093px; top: 287px; position: absolute; color: #DEE1E6; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Privacy</div>
+      <div style="left: 1165px; top: 287px; position: absolute; color: #DEE1E6; font-size: 14px; font-family: Inter; font-weight: 400; line-height: 22px; word-wrap: break-word">Terms</div>
+      <div style="left: 1078px; top: 289px; position: absolute; color: #DEE1E6; font-size: 11px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">•</div>
+      <div style="left: 1150px; top: 289px; position: absolute; color: #DEE1E6; font-size: 11px; font-family: Inter; font-weight: 400; line-height: 18px; word-wrap: break-word">•</div>
+      <div style="left: 184px; top: 241px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">(+82) 010 7101 6199</div>
+      <div style="width: 16px; height: 16px; left: 156px; top: 246px; position: absolute; overflow: hidden">
+        <div style="width: 11.40px; height: 11.40px; left: 2.30px; top: 2.30px; position: absolute; outline: 1.37px white solid; outline-offset: -0.68px"></div>
+      </div>
+      <div style="left: 184px; top: 283px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">komin619901@naver.com</div>
+      <div style="width: 16px; height: 16px; left: 156px; top: 288px; position: absolute; overflow: hidden">
+        <div style="width: 13.40px; height: 10.72px; left: 1.30px; top: 2.64px; position: absolute; background: white"></div>
+      </div>
+      <div style="left: 184px; top: 196px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">KyungHee University</div>
+      <div style="width: 16px; height: 16px; left: 156px; top: 201px; position: absolute; overflow: hidden">
+        <div style="width: 16.08px; height: 16.08px; left: -0.04px; top: -0.04px; position: absolute"></div>
+        <div style="width: 9.38px; height: 13.40px; left: 3.31px; top: 1.30px; position: absolute; background: white"></div>
+      </div>
+      <div style="left: 580px; top: 62px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Team</div>
+      <div style="width: 344px; left: 953px; top: 62px; position: absolute; color: #DEE1E6; font-size: 28px; font-family: Archivo; font-weight: 300; line-height: 42px; word-wrap: break-word">비어 있는 공간을<br/>가치있게 채우고 싶다면</div>
+      <div style="width: 200px; height: 44px; left: 953px; top: 162px; position: absolute; background: rgba(0, 0, 0, 0); overflow: hidden; border-radius: 6px; outline: 1px white solid; outline-offset: -1px">
+        <div style="left: 63.50px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Log in</div>
+        <div style="width: 20px; height: 20px; left: 116.50px; top: 12px; position: absolute; overflow: hidden">
+          <div style="width: 4.97px; height: 9.94px; left: 12.16px; top: 5.03px; position: absolute; outline: 1.70px white solid; outline-offset: -0.85px"></div>
+        </div>
+      </div>
+      <div style="width: 24px; height: 24px; left: 1392px; top: 285px; position: absolute; overflow: hidden">
+        <div style="width: 19.20px; height: 13.56px; left: 2.40px; top: 5.22px; position: absolute; background: white"></div>
+      </div>
+      <div style="left: 580px; top: 104px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Services</div>
+      <div style="left: 580px; top: 146px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Project details</div>
+      <div style="left: 580px; top: 188px; position: absolute; color: white; font-size: 16px; font-family: Inter; font-weight: 400; line-height: 26px; word-wrap: break-word">Log in</div>
+      <div style="width: 24px; height: 24px; left: 1360px; top: 286px; position: absolute; overflow: hidden">
+        <div style="width: 18.92px; height: 18.92px; left: 2.54px; top: 2.54px; position: absolute; background: #DEE1E6"></div>
+        <div style="width: 9.72px; height: 9.72px; left: 7.14px; top: 7.14px; position: absolute; background: #DEE1E6"></div>
+        <div style="width: 2.27px; height: 2.27px; left: 15.89px; top: 5.83px; position: absolute; background: #DEE1E6"></div>
+      </div>
+      <div style="width: 24px; height: 24px; left: 1328px; top: 286px; position: absolute; overflow: hidden">
+        <div style="width: 20.64px; height: 17.02px; left: 1.68px; top: 3.49px; position: absolute; background: #DEE1E6"></div>
+      </div>
+      <img style="width: 245px; height: 276px; left: 1224px; top: 11px; position: absolute" src="https://placehold.co/245x276" />
+      <img style="width: 70px; height: 74px; left: 132px; top: 43px; position: absolute" src="https://placehold.co/70x74" />
+      <img style="width: 231px; height: 107px; left: 212px; top: 23px; position: absolute" src="https://placehold.co/231x107" />
+    </div>
+  </div>
+</div>
     </div>
   </div>
 
-  <!-- 반응형 비율 유지 -->
   <script>
     function updateScale() {
-      const baseWidth = 1440;
+      const baseWidth = 1440; // 네가 디자인한 기준 해상도
       const currentWidth = window.innerWidth;
       const scale = currentWidth / baseWidth;
-      document.getElementById("scaled-content").style.transform = `scale(${scale})`;
+
+      const content = document.getElementById("scaled-content");
+      content.style.transform = `scale(${scale})`;
     }
+
     window.addEventListener("resize", updateScale);
     window.addEventListener("load", updateScale);
   </script>
-
-  <!-- ✅ Three.js 로직 -->
-  <script type="module" src="assets/js/main.js"></script>
 </body>
 </html>
 
